@@ -18,6 +18,7 @@ namespace Microsoft.AspNetCore.Mvc.ApplicationParts
             // it depends on Microsoft.AspNetCore.Mvc even though it does. Explicitly list it so that referencing this runtime causes
             // assembly discovery to work correctly.
             "Microsoft.AspNetCore.All",
+            "Microsoft.AspNetCore.App",
             "Microsoft.AspNetCore.Mvc",
             "Microsoft.AspNetCore.Mvc.Abstractions",
             "Microsoft.AspNetCore.Mvc.ApiExplorer",
